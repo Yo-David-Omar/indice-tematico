@@ -1,0 +1,156 @@
+.t-bus{
+    
+    height: 600px;
+    overflow-y: auto;
+    button{
+        width: 100%;
+    }
+    &::-webkit-scrollbar{
+        scroll-behavior: smooth;
+    }
+}
+.bg-color1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+.bg-color2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    font-weight: bolder;
+    
+}
+
+.alto-drop{
+    height: 200px;
+    width: 250px;
+    overflow-y: auto;
+    
+    background-color: darkblue;
+    color: aliceblue;
+    li{
+        a{
+            color: aliceblue;
+        }
+    }
+    &::-webkit-scrollbar{
+        scroll-margin-block-start: 2px;
+        scroll-behavior: smooth;
+    }
+}
+/*estilos dropdown zigzag*/
+.ul-li{
+    position: fixed;
+    border-right: 4px double #a1c4fd;
+    width: 200px;
+    height: 500px;
+    overflow-y: auto;
+    ul{
+        li{
+            margin-top: 3%;
+            padding: 3%;
+            list-style-type: none;
+            border-bottom: 1px solid rgb(198, 192, 192);
+            margin-left: 15px;
+            &:hover{
+                background-color: rgb(19, 56, 160);
+            }
+            a{
+                width: 100%;
+                text-decoration: none;
+                color: dimgrey;
+                padding: 3%;
+                transition: all .9s;
+                line-height: 2;
+                &:hover{
+                    color: bisque;
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+    }
+    &::-webkit-scrollbar{
+        scroll-behavior: smooth;
+    }
+    h1{
+        position: fixed;
+        text-align: center;
+        width: 40px;
+        left: 1%;
+        background-color: brown;
+        border: 1px solid black;
+        border-radius: 50%;
+        &:hover{
+            background-color: aqua;
+            border: 1px solid black;
+            a{
+                color: black;
+            }
+        }
+        a{
+            color: aliceblue;
+        }
+    }
+}
+.tamanio-indice{
+    margin-left: 300px;
+}
+.indice{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /*margin-left: 300px; solo para dropdwn_zigzag*/
+    div{
+        padding: 5%;
+        background-color: lightblue;
+        p{
+            a{
+                color: brown;
+            }
+        }
+        a{
+            text-decoration: none;
+            span{
+                text-shadow: 3px 3px 4px black;
+                font-size: 1.5em;
+                color: white;
+                margin-left: 40px;
+                border-bottom: 1px solid rgb(175, 167, 167);
+            }
+        }
+    }
+    
+}
+.pos-section{
+    height: 400px;
+    overflow-y: auto;
+    table{
+        height: 300px;
+        position: fixed;
+        top: 0;
+        width: 20%;
+        right: 0;
+    }
+}
+/*barra lateral de Barra_lateral*/
+@media (min-width: 768px) {
+    /* Sidebar visible solo en pantallas medianas o mayores */
+    #sidebar-md {
+      display: block !important;
+      width: 300px;
+      height: 100vh;
+      background-color: #f8f9fa;
+      border-right: 1px solid #dee2e6;
+      overflow-y: auto;
+      padding: 1rem;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+    #main-content {
+        width: 100%;
+      margin-left: 300px;
+    }
+  }

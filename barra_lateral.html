@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foro Informativo Responsive</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="indicetematico.css">
+  
+</head>
+<body>
+
+  <!-- Botón hamburguesa solo visible en móviles -->
+  <nav class="navbar bg-light d-md-none">
+    <div class="container-fluid">
+      <button class="btn btn-outline-primary" data-bs-toggle="offcanvas" data-bs-target="#sidebarMobile">
+        ☰ Menú
+      </button>
+    </div>
+  </nav>
+
+  <div id="sidebar-md" class="d-none d-md-block">
+   
+    <div id="sidebar-content">
+      <h4>Índice Temático</h4>
+      <input type="text" class="form-control mb-3" placeholder="Buscar..." />
+
+      <div class="fw-bold mt-3">Letra "A"</div>
+      
+      <div class="t-bus">
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            A
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#abo">Abogado</a></li>
+            <li><a class="dropdown-item" href="#acceso">Acceso</a></li>
+            <li><a class="dropdown-item" href="#acom">Acompañante Terapéutico</a></li>
+            <li><a class="dropdown-item" href="#acta">Acta</a></li>
+            <li><a class="dropdown-item" href="#actriz">Actriz</a></li>
+            <li><a class="dropdown-item" href="#acuerdo">Acuerdo</a></li>
+            <li><a class="dropdown-item" href="#adminis">Administracion Pública</a></li>
+            <li><a class="dropdown-item" href="#adultos">Adultos Mayores</a></li>
+            <li><a class="dropdown-item" href="#aero">Aeronaves</a></li>
+            <li><a class="dropdown-item" href="#agentes">Agentes de Retención</a></li>
+            <li><a class="dropdown-item" href="#albin">Albinismo</a></li>
+            <li><a class="dropdown-item" href="#alergias">Alergias Alimentarias</a></li>
+            <li><a class="dropdown-item" href="#alim">Alimentación Vegetariana</a></li>
+            <li><a class="dropdown-item" href="#alum">Alumnos</a></li>
+            <li><a class="dropdown-item" href="#anali">Análisis</a></li>
+            <li><a class="dropdown-item" href="#anim">Animales</a></li>
+            <li><a class="dropdown-item" href="#anual">Anual</a></li>
+            <li><a class="dropdown-item" href="#apor">Aportes No Reintegrables</a></li>
+            <li><a class="dropdown-item" href="#arbol">Árbol</a></li>
+            <li><a class="dropdown-item" href="#arq">Arquitecto</a></li>
+            <li><a class="dropdown-item" href="#asoc">Asociación</a></li>
+            <li><a class="dropdown-item" href="#ave">Avenida</a></li>
+            <li><a class="dropdown-item" href="#azu">Azúcar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            B
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#banc">Bancos</a></li>
+            <li><a class="dropdown-item" href="#band">Bandera</a></li>
+            <li><a class="dropdown-item" href="#bares">Bares</a></li>
+            <li><a class="dropdown-item" href="#ber">Bernardo de Monteagudo</a></li>
+            <li><a class="dropdown-item" href="#ben">Beneficio para Litigar sin gastos</a></li>
+            <li><a class="dropdown-item" href="#benja">Benjamin Matienzo</a></li>
+            <li><a class="dropdown-item" href="#bici">Bicicleta</a></li>
+            <li><a class="dropdown-item" href="#bio">Biocombustible</a></li>
+            <li><a class="dropdown-item" href="#bioet">Bioetanol</a></li>
+            <li><a class="dropdown-item" href="#boleto">Boleto</a></li>
+            <li><a class="dropdown-item" href="#bombe">Bomberos</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            C
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#calles">Calles</a></li>
+            <li><a class="dropdown-item" href="#cami">Camino</a></li>
+            <li><a class="dropdown-item" href="#campa">Campamento</a></li>
+            <li><a class="dropdown-item" href="#campaña">Campaña</a></li>
+            <li><a class="dropdown-item" href="#campus">Campus</a></li>
+            <li><a class="dropdown-item" href="#canal">Canal/es</a></li>
+            <li><a class="dropdown-item" href="#carna">Carnaval</a></li>
+            <li><a class="dropdown-item" href="#castra">Castración</a></li>
+            <li><a class="dropdown-item" href="#causa">Causa/s Judicial/es</a></li>
+            <li><a class="dropdown-item" href="#centro">Centro</a></li>
+            <li><a class="dropdown-item" href="#cerro">Cerro</a></li>
+            <li><a class="dropdown-item" href="#char">Charlas</a></li>
+            <li><a class="dropdown-item" href="#circu">Circunvalación</a></li>
+            <li><a class="dropdown-item" href="#club">Club</a></li>
+            <li><a class="dropdown-item" href="#codigo">Código</a></li>
+            <li><a class="dropdown-item" href="#cole">Colegio</a></li>
+            <li><a class="dropdown-item" href="#combu">Combustible</a></li>
+            <li><a class="dropdown-item" href="#comis">Comisaría/s</a></li>
+            <li><a class="dropdown-item" href="#comision">Comisión/es</a></li>
+            <li><a class="dropdown-item" href="#comuna">Comuna</a></li>
+            <li><a class="dropdown-item" href="#confe">Conferencia</a></li>
+            <li><a class="dropdown-item" href="#congreso">Congreso</a></li>
+            <li><a class="dropdown-item" href="#cons">Consejo</a></li>
+            <li><a class="dropdown-item" href="#conserv">Conservatorio</a></li>
+            <li><a class="dropdown-item" href="#consenso">Consenso</a></li>
+            <li><a class="dropdown-item" href="#conso">Consorcios</a></li>
+            <li><a class="dropdown-item" href="#contra">Contrato</a></li>
+            <li><a class="dropdown-item" href="#conve">Convención</a></li>
+            <li><a class="dropdown-item" href="#convenio">Convenio</a></li>
+            <li><a class="dropdown-item" href="#coop">Cooperativas</a></li>
+            <li><a class="dropdown-item" href="#coplera">Coplera</a></li>
+            <li><a class="dropdown-item" href="#corona">Coronavirus</a></li>
+            <li><a class="dropdown-item" href="#cuare">Cuaresma</a></li>
+            <li><a class="dropdown-item" href="#cuestion">Cuestión de Privilegio</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            D
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#dalma">Dalmacio Vélez Sársfield</a></li>
+            <li><a class="dropdown-item" href="#decreto">Decreto</a></li>
+            <li><a class="dropdown-item" href="#defo">Deforestación</a></li>
+            <li><a class="dropdown-item" href="#depo">Deportistas</a></li>
+            <li><a class="dropdown-item" href="#dere">Derecho Animal</a></li>
+            <li><a class="dropdown-item" href="#dereh">Derechos Humanos</a></li>
+            <li><a class="dropdown-item" href="#dia">Día</a></li>
+            <li><a class="dropdown-item" href="#diario">Diarios</a></li>
+            <li><a class="dropdown-item" href="#diputados">Diputados y Senadores por Tucumán</a></li>
+            <li><a class="dropdown-item" href="#direc">Dirección</a></li>
+            <li><a class="dropdown-item" href="#distin">Distinción</a></li>
+            <li><a class="dropdown-item" href="#docen">Docentes</a></li>
+            <li><a class="dropdown-item" href="#donar">Donación de Órganos</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            E
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#edu">Educación</a></li>
+            <li><a class="dropdown-item" href="#emer">Emergencia</a></li>
+            <li><a class="dropdown-item" href="#enc">Encuentro</a></li>
+            <li><a class="dropdown-item" href="#encu">Encuesta</a></li>
+            <li><a class="dropdown-item" href="#endo">Endometriosis</a></li>
+            <li><a class="dropdown-item" href="#ener">Energía</a></li>
+            <li><a class="dropdown-item" href="#enfer">Enfermedad</a></li>
+            <li><a class="dropdown-item" href="#ente">Ente</a></li>
+            <li><a class="dropdown-item" href="#enti">Entidades</a></li>
+            <li><a class="dropdown-item" href="#equi">Equipo</a></li>
+            <li><a class="dropdown-item" href="#escu">Escuela</a></li>
+            <li><a class="dropdown-item" href="#estab">Establecimientos</a></li>
+            <li><a class="dropdown-item" href="#estac">Estacionamiento</a></li>
+            <li><a class="dropdown-item" href="#estado">Estado Provincial</a></li>
+            <li><a class="dropdown-item" href="#evad">Eva Duarte de Perón</a></li>
+            <li><a class="dropdown-item" href="#even">Eventos</a></li>
+            <li><a class="dropdown-item" href="#expo">Expo</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            F
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#festiva">Festival</a></li>
+            <li><a class="dropdown-item" href="#fisico">Físico y Filósofo</a></li>
+            <li><a class="dropdown-item" href="#fondo">Fondo/s</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            G
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#gene">Gral. San Martin</a></li>
+            <li><a class="dropdown-item" href="#gober">Gobernador de la Provincia</a></li>
+            <li><a class="dropdown-item" href="#golpe">Golpe Estado</a></li>
+            <li><a class="dropdown-item" href="#grupo">Grupo Musical</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            H
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#habi">Habilidades Emocionales</a></li>
+            <li><a class="dropdown-item" href="#homen">Homenajes</a></li>
+            <li><a class="dropdown-item" href="#hospi">Hospital/es</a></li>
+            <li><a class="dropdown-item" href="#humor">Humorista</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            I
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#infra">Infraestructura Vial</a></li>
+            <li><a class="dropdown-item" href="#inge">Ingenio</a></li>
+            <li><a class="dropdown-item" href="inmu">Inmueble</a></li>
+            <li><a class="dropdown-item" href="#inter">Interventora</a></li>
+            <li><a class="dropdown-item" href="#insti">Instituciones</a></li>
+            <li><a class="dropdown-item" href="#instituto">Instituto</a></li>
+            <li><a class="dropdown-item" href="#instru">Instrumentistas Quirúrgicos</a></li>
+            <li><a class="dropdown-item" href="#isauro">Isauro y Arturo Arancibia</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            J
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#jorna">Jornadas</a></li>
+            <li><a class="dropdown-item" href="#jubi">Jubilados</a></li>
+            <li><a class="dropdown-item" href="#juegos">Juegos Universitarios Regionales</a></li>
+            <li><a class="dropdown-item" href="#juez">Juez de la Corte Interamericana</a></li>
+            <li><a class="dropdown-item" href="#juzg">Juzgado</a></li>
+            <li><a class="dropdown-item" href="#juzp">Juzgado de Paz</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            L
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#lacta">Lactancia Materna</a></li>
+            <li><a class="dropdown-item" href="#legis">Legislador/es</a></li>
+            <li><a class="dropdown-item" href="#legisl">Legislatura</a></li>
+            <li><a class="dropdown-item" href="#leyes">Ley/es</a></li>
+            <li><a class="dropdown-item" href="#libro">Libro</a></li>
+            <li><a class="dropdown-item" href="#liga">Liga Árabe</a></li>
+            <li><a class="dropdown-item" href="#linea">Linea/s</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            M
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#maestro">Maestro Carlos Podazza</a></li>
+            <li><a class="dropdown-item" href="#mani">Manifestaciones Generales</a></li>
+            <li><a class="dropdown-item" href="#marcha">Marcha</a></li>
+            <li><a class="dropdown-item" href="#evadu">María E. D. de Perón</a></li>
+            <li><a class="dropdown-item" href="#mater">Maternidades</a></li>
+            <li><a class="dropdown-item" href="#mecen">Mecenazgo</a></li>
+            <li><a class="dropdown-item" href="#medic">Medicamentos</a></li>
+            <li><a class="dropdown-item" href="#medi">Medidas de Ajuste</a></li>
+            <li><a class="dropdown-item" href="#medios">Medios de Comunicación</a></li>
+            <li><a class="dropdown-item" href="#medula">Médula Ósea</a></li>
+            <li><a class="dropdown-item" href="#mini">Ministerio/s</a></li>
+            <li><a class="dropdown-item" href="#minis">Ministra/o</a></li>
+            <li><a class="dropdown-item" href="#musico">Músico</a></li>
+            <li><a class="dropdown-item" href="#mujer">Mujer/es</a></li>
+            <li><a class="dropdown-item" href="#muni">Municipalidad/es</a></li>
+            <li><a class="dropdown-item" href="#munici">Municipio</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            N
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#navi">Navidad</a></li>
+            <li><a class="dropdown-item" href="#niños">Niños</a></li>
+            <li><a class="dropdown-item" href="#noche">Nochebuena</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            O
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#odm">Objetivos</a></li>
+            <li><a class="dropdown-item" href="#obra">Obra</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            P
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#pacha">Pachamama</a></li>
+            <li><a class="dropdown-item" href="#paro">Paro</a></li>
+            <li><a class="dropdown-item" href="#pase">Pase</a></li>
+            <li><a class="dropdown-item" href="#pasto">Pastores</a></li>
+            <li><a class="dropdown-item" href="#pau">PautasPub.</a></li>
+            <li><a class="dropdown-item" href="#peri">Periodistas</a></li>
+            <li><a class="dropdown-item" href="#perros">Perros</a></li>
+            <li><a class="dropdown-item" href="#pers">Personas Mayores</a></li>
+            <li><a class="dropdown-item" href="#pia">Pianista</a></li>
+            <li><a class="dropdown-item" href="#piro">Pirotecnia</a></li>
+            <li><a class="dropdown-item" href="#plan">Plan</a></li>
+            <li><a class="dropdown-item" href="#pobla">Pob. Fem.</a></li>
+            <li><a class="dropdown-item" href="#ejecu">Poder Ejecutivo</a></li>
+            <li><a class="dropdown-item" href="#judic">Poder Judicial</a></li>
+            <li><a class="dropdown-item" href="#ejec">Poderes</a></li>
+            <li><a class="dropdown-item" href="#legi">Poder Legislativo</a></li>
+            <li><a class="dropdown-item" href="#poet">Poetisa</a></li>
+            <li><a class="dropdown-item" href="#poli">Policía</a></li>
+            <li><a class="dropdown-item" href="#pream">Preámbulo</a></li>
+            <li><a class="dropdown-item" href="#prem">Premios</a></li>
+            <li><a class="dropdown-item" href="#presi">Presidente</a></li>
+            <li><a class="dropdown-item" href="#presu">Presupuesto</a></li>
+            <li><a class="dropdown-item" href="#primer">1er. Gob.</a></li>
+            <li><a class="dropdown-item" href="#proc">Proc. Col.</a></li>
+            <li><a class="dropdown-item" href="#prof">Profesor/a</a></li>
+            <li><a class="dropdown-item" href="#progr">Programa/s</a></li>
+            <li><a class="dropdown-item" href="#proto">Protocolo</a></li>
+            <li><a class="dropdown-item" href="#proy">Proyecto</a></li>
+            <li><a class="dropdown-item" href="#publi">Public. Of.</a></li>
+            <li><a class="dropdown-item" href="#puente">Puente</a></li>
+            <li><a class="dropdown-item" href="#pulve">Pulv. Aéreas</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            R
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#radio">Radio</a></li>
+            <li><a class="dropdown-item" href="#rally">Rally</a></li>
+            <li><a class="dropdown-item" href="#red">Red Vial</a></li>
+            <li><a class="dropdown-item" href="#reg">Régimen</a></li>
+            <li><a class="dropdown-item" href="#regi">Registro</a></li>
+            <li><a class="dropdown-item" href="#rene">Rene G. Favaloro</a></li>
+            <li><a class="dropdown-item" href="#resi">Residuos</a></li>
+            <li><a class="dropdown-item" href="#resta">Restaurantes</a></li>
+            <li><a class="dropdown-item" href="#ricar">Ricardo Alfonsín</a></li>
+            <li><a class="dropdown-item" href="#riña">Riñas de Gallos</a></li>
+            <li><a class="dropdown-item" href="#rio">Rio</a></li>
+            <li><a class="dropdown-item" href="#ruinas">Ruinas</a></li>
+            <li><a class="dropdown-item" href="#ruta">Ruta</a></li>
+            <li><a class="dropdown-item" href="#roto">Rotonda</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            S
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#salas">Salas de Teatro</a></li>
+            <li><a class="dropdown-item" href="#seguro">Seguro</a></li>
+            <li><a class="dropdown-item" href="#selec">Seleccionados</a></li>
+            <li><a class="dropdown-item" href="#semi">Seminario</a></li>
+            <li><a class="dropdown-item" href="#sena">Senadores y Diputados Nacionales</a></li>
+            <li><a class="dropdown-item" href="#señor">Señor Gobernador</a></li>
+            <li><a class="dropdown-item" href="#serv">Servicios</a></li>
+            <li><a class="dropdown-item" href="#sillon">Sillón</a></li>
+            <li><a class="dropdown-item" href="#sist">Sistema/s</a></li>
+            <li><a class="dropdown-item" href="#soci">Sociedad</a></li>
+            <li><a class="dropdown-item" href="#sirio">Sociedad Sirio Libanesa</a></li>
+            <li><a class="dropdown-item" href="#soft">Software</a></li>
+            <li><a class="dropdown-item" href="#sorbe">Sorbetes</a></li>
+            <li><a class="dropdown-item" href="#suce">Sucesos Políticos</a></li>
+            <li><a class="dropdown-item" href="#sufra">Sufragio</a></li>
+            <li><a class="dropdown-item" href="#superior">Superior Gobierno</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            T
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#taba">Tabaco</a></li>
+            <li><a class="dropdown-item" href="#tari">Tarifa Social</a></li>
+            <li><a class="dropdown-item" href="#tecni">Técnicos Radiólogos</a></li>
+            <li><a class="dropdown-item" href="#templo">Templo</a></li>
+            <li><a class="dropdown-item" href="#tinta">Tinta Nakuy</a></li>
+            <li><a class="dropdown-item" href="#torneo">Torneo</a></li>
+            <li><a class="dropdown-item" href="#trans">Transporte</a></li>
+            <li><a class="dropdown-item" href="#trap">Trapiche Azucarero</a></li>
+            <li><a class="dropdown-item" href="#turi">Turismo</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 bg-opacity-10 border border-info bg-opacity-10 border border-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            U
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#uni">Universidades</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle bg-color1 border border-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            V
+          </button>
+          <ul class="dropdown-menu alto-drop">
+            <li><a class="dropdown-item" href="#vehi">Vehiculos</a></li>
+            <li><a class="dropdown-item" href="#vice">Vicepresidenta</a></li>
+            <li><a class="dropdown-item" href="#video">Video Wiphala</a></li>
+            <li><a class="dropdown-item" href="#vih">VIH-SIDA</a></li>
+            <li><a class="dropdown-item" href="#vivi">Vivienda</a></li>
+            <li><a class="dropdown-item" href="#viol">Violencia</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="fw-bold">Mas destacados</div>
+      <div class="list-group mb-3">
+        <a href="#acceso" class="list-group-item list-group-item-action">🎉 Acceso Digital Igualitario</a>
+        <a href="#anali" class="list-group-item list-group-item-action">📢 Detección Viral</a>
+      </div>
+
+      <div class="fw-bold">Recursos Útiles</div>
+      <ul class="list-group mb-3">
+        <li class="list-group-item"><a href="#">Guía rápida</a></li>
+        <li class="list-group-item"><a href="#">Tutorial en video</a></li>
+        <li class="list-group-item"><a href="#">Documentación técnica</a></li>
+      </ul>
+
+      <div class="fw-bold">¿Te ha sido útil esta página?</div>
+<div class="mb-3">
+  <button class="btn btn-success btn-sm me-2" onclick="vote('up')"><i class="bi bi-hand-thumbs-up"></i> Me gusta <span id="up-count">0</span></button>
+  <button class="btn btn-danger btn-sm" onclick="vote('down')"><i class="bi bi-hand-thumbs-down"></i> No me gusta <span id="down-count">0</span></button>
+</div>
+
+      <button class="btn btn-primary btn-sm">💬 Contactar Soporte</button>
+    </div>
+  </div>
+
+  <!-- Offcanvas para móviles -->
+  <div class="offcanvas offcanvas-start d-md-none" tabindex="-1" id="sidebarMobile">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title">Foro Informativo</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <!-- Contenido reutilizado -->
+      <div id="sidebar-content-mobile"></div>
+    </div>
+  </div>
+
+  <!-- Contenido principal -->
+  <div id="main-content" class="p-4">
+    <div class="indice">
+    <div class="abogado">
+        <a href="#"><span>ABOGADO</span></a> <br>
+
+        <p>-<a href="/diariosesiones/asuntos3.html#ley2-8" title="Ver Diario de Sesiones"> DE LA NIÑA, NIÑO Y ADOLESCENTE. REGULACIÓN DE SU FIGURA.  Proyectos de ley, 601,</a><a href="/diariosesiones/asuntos3.html#ley2-23" title="Ver Diario de Sesiones"> 643,</a><a href="/diariosesiones/asuntos5.html#ley2-25" title="Ver Diario de Sesiones"> 1309</a> y <a href="/diariosesiones/asuntos8.html#ley2-8" title="Ver Diario de Sesiones">2268.</a> Dictamen, 1968. Consideración, 1972. Vuelta a Comisión, 1973. Dictamen, 2458. Consideración, 2459. Vuelta a Comisión, 2461. </p>
+        <section id="acceso"></section>
+       <p>- <a href="/diariosesiones/asuntos12.html#ley2-10" title="Ver Diario de Sesiones"> DEL NIÑO. ESTABLECIMIENTO. Proyecto de ley, 2898.</a> <br></p>
+       <a name="acceso">
+       <p><a href="/diariosesiones/asuntos16.html#ley2-30" title="Ver Diario de Sesiones">- DE NIÑAS, NIÑOS Y ADOLESCENTES. IMPLEMENTACIÓN. Proyecto de ley, 4376.</a></p>
+    </div>
+
+    <div class="acceso">
+        <a href="acceso"><span>ACCESO/S</span></a> <br>
+        <p>-
+        DIGITAL IGUALITARIO PARA LOS CIUDADANOS DE LA PROVINCIA DE TUCUMÁN. GARANTÍA. Proyecto de ley, 2330. </p>
+<a name="acom"></a><section id="acompañante"></section>
+        <p>-VIALES A LA PROVINCIA DE TUCUMÁN. SOLICITUD DE OBRAS ARQUITECTÓNICAS. Proyecto de resolución, 223.</p>
+    </div>
+    <section id="acta"></section>
+    <div class="acompa">
+        <a href="#"><span>ACOMPAÑANTE TERAPÉUTICO</span></a> <br>
+        <p>- <a name="acta"></a>
+        REGULACIÓN DE LA ACTIVIDAD. Proyecto de ley, 628.
+        </p>
+    </div>
+
+    <div class="acta">
+        <a href="#"><span>ACTA</span></a> <br>
+        <p><a href="/asuntoslink/linkasuntos10.html#compoderes11" title="Ver Diario de Sesiones">-DE LA COMISIÓN DE PODERES. CONSIDERACIÓN, 2748.</a></p><br>
+
+        <p><ins>- DE LA JUNTA ELECTORAL PROVINCIAL:</ins> </p>
+    
+        
+        <p><a href="/asuntoslink/linkasuntos10.html#juntaelec9" title="Ver Diario de Sesiones"> -LECTURA DEL ANEXO CON LA NÓMINA DE SEÑORES LEGISLADORES ELECTOS EN LAS TRES SECCIONES ELECTORALES, 2746.</a></p>
+        <section id="actriz"></section>
+        <p><a href="/asuntoslink/linkasuntos10.html#juntaelec8" title="Ver Diario de Sesiones">-LECTURA, 2744.</a></p>
+        <a name="actriz"></a>
+        <p><a href="/asuntoslink/linkasuntos11.html#acta6" title="Ver Diario de Sesiones">-RESOLUCIÓN N° 121/19: PROCLAMACIÓN DE LOS SEÑORES GOBERNADOR Y VICEGOBERNADOR ELECTOS.</a><br> LECTURA, 2777.</p>
+        </div>
+        
+    <div class="actriz"><section id="acuerdo"></section>
+        <a href="#"><span>ACTRIZ</span></a> <br>
+        <p>-<a name="acuerdo"></a>
+        TUCUMANA “ROSITA” ÁVILA. HOMENAJE. Proyecto de resolución, 3472. Consideración, sanción y texto, 3727.
+        </p>
+    </div>
+
+    <div class="acuerdo">
+        <a href="#"><span>ACUERDO</span></a> <br>
+        <p>-
+        COMERCIAL ENTRE EL MERCOSUR Y LA UNIÓN EUROPEA. APOYO. Proyecto de resolución, 1327.</p><br>
+
+        <p>-DE LA CPN BEATRIZ DEL VALLE BORDINARO DE PELUFFO PARA SU DESIGNACIÓN COMO VOCAL 2° DEL DIRECTORIO DEL ENTE ÚNICO DE CONTROL Y REGULACIÓN DE LOS SERVICIOS PÚBLICOS PROVINCIALES DE TUCUMÁN. Mensaje del Poder Ejecutivo, 2880. Dictamen, 2981. Consideración, 2984. Sanción y texto, 2986.</p><br>
+
+        <p>-DEL DOCTOR SANTIAGO YANOTTI PARA SU DESIGNACIÓN COMO PRESIDENTE DEL DIRECTORIO DEL ENTE ÚNICO DE CONTROL Y REGULACIÓN DE LOS SERVICIOS PÚBLICOS PROVINCIALES DE TUCUMÁN. Mensaje del Poder Ejecutivo, 2880. Dictamen, 2970. Consideración, 2974. Sanción y texto, 2975.</p><br>
+        <section id="administracion"></section>
+        <p>-DEL INGENIERO LUIS ADOLFO MORGHENSTEIN PARA SU DESIGNACIÓN COMO VOCAL 1° DEL DIRECTORIO DEL ENTE ÚNICO DE CONTROL Y REGULACIÓN DE LOS SERVICIOS PÚBLICOS PROVINCIALES DE TUCUMÁN.<a name="adminis"></a> Mensaje del Poder Ejecutivo, 2880. Dictamen, 2976. Consideración, 2979. Sanción y texto, 2980.</p>
+    </div>
+
+    <div class="adminis">
+        <a href="#"><span>ADMINISTRACIÓN PÚBLICA</span></a> <br>
+        <section id="adultos"></section>
+        <p><ins> PROVINCIAL:</ins></p> <br>
+        <p> -INCLUSIÓN NO INFERIOR AL 1 % PARA EL INGRESO PARA PERSONAS TRAVESTIS, TRANSEXUALES Y TRANSGÉNERO CON IDONEIDAD PARA EL CARGO A ASUMIR. Proyecto de ley, 1699.</p>
+        <a name="adultos"></a>
+        <p> -RÉGIMEN DE LICENCIAS ESPECIALES PARA LOS AGENTES CON FAMILIARES CON DISCAPACIDAD. Proyecto de ley, 1152.
+        </p>
+    </div>
+    <section id="aeronaves"></section>
+    <div class="adultos">
+        <a href="#"><span>ADULTOS MAYORES</span></a>
+        <p>-<a name="aero"></a>
+        SOLICITUD DE CONTROLES POLICIALES EN LOS ALREDEDORES DE LOS CENTROS DE PAGOS. Proyecto de resolución, 889.
+        </p>
+    </div>
+
+    <div class="aeronaves">
+        <a href="#"><span>AERONAVES</span></a>
+        
+        <p>-DEL ESTADO PROVINCIAL. REGLAMENTACIÓN DE SU USO, DESTINO Y ADMINISTRACIÓN. Proyecto de ley, 2083.</p><br>
+        <section id="agentes"></section>
+        <p>-QUE INTEGRAN LA FLOTA DE LA PROVINCIA. AUTORIZACIÓN A CONTRATAR EN FORMA DIRECTA A TRAVÉS DE LA DIRECCIÓN PROVINCIAL DE AERONÁUTICA LOS BIENES Y/O TRABAJOS NECESARIOS PARA SU MANTENIMIENTO Y REPARACIÓN. <a name="agentes"></a> Proyecto de ley del Poder Ejecutivo, 2842. Dictamen, 3073. Consideración, 3074. Sanción y texto, 3080.<br> (Promulgada como Ley n° 9197)
+        </p>
+    </div>
+    
+    <div class="agentes">
+            <a href="#"><span>AGENTES DE RETENCIÓN</span></a>
+
+            <p><ins> PERCEPCIÓN Y/O RECAUDACIÓN:</ins></p> <br>
+            <p>-APLICACIÓN DEL RÉGIMEN DE PRESENTACIÓN ESPONTÁNEA RESPECTO A LAS OBLIGACIONES CORRESPONDIENTES AL AÑO 2019 POR TRIBUTOS RETENIDOS, PERCIBIDOS O RECAUDADOS. Proyecto de ley del Poder Ejecutivo, 1695. 
+            </p><br>
+            <section id="albinismo"></section>
+            <p>-QUE NO HUBIESEN CUMPLIDO EN TIEMPO Y FORMA CON LA OBLIGACIÓN DE DEPOSITAR LOS TRIBUTOS RETENIDOS, PERCIBIDOS O RECAUDADOS. EXCEPCIÓN RESPECTO DE LAS OBLIGACIONES CORRESPONDIENTES AL AÑO 2019. Proyecto de ley del Poder Ejecutivo, 2064. Dictamen, 2538. <a name="albin"></a>Consideración, 2539. Sanción y texto, 2540. (Promulgada como Ley n° 9191).
+            </p>
+    </div>
+    <section id="alergias"></section>
+    <div class="albinismo">
+        <a href="#"><span>ALBINISMO</span></a>
+        <p>-<a name="alergias"></a>
+        ABORDAJE Y PROTECCIÓN INTEGRAL PSICOFÍSICA DE LAS PERSONAS QUE LO PADECEN. Proyecto de ley, 847.
+        </p>
+    </div>
+    <section id="alimentacion"></section>
+    <div class="alergias">
+        <a href="#"><span>ALERGIAS ALIMENTARIAS</span></a>
+        <p>-<a name="alim"></a>
+        RECONOCIMIENTO COMO PROBLEMA DE SALUD PARA EL OTORGAMIENTO DE LICENCIA MÉDICA. Proyecto de ley, 623.
+        </p>
+    </div>
+    <section id="alumnos"></section>
+    <div class="alimentacion">
+        <a href="#"><span>ALIMENTACIÓN VEGETARIANA</span></a>
+        <p>- <a name="alum"></a>
+        Y VEGANA. OBLIGATORIEDAD DE OFRECER MENÚS  A ORGANISMOS DEL ESTADO PROVINCIAL QUE BRINDEN SERVICIO DE COMIDA A SUS TRABAJADORES. Proyecto de ley, 2621.
+        </p>
+    </div>
+
+    <div class="alumnos">
+        <a href="#"><span>ALUMNOS</span></a>
+        <p>-
+        DEL COLEGIO “GUILLERMINA LESTÓN DE GUZMÁN”: JAVIER PAZ Y LETICIA PILAR COSTILLA CAMPERO, Y DOCENTES MARCOS MANCILLA Y DIEGO TOLOSA. FELICITACIÓN Y ENTREGA DE DIPLOMA. Proyecto de resolución, 3449.</p><br>
+
+        <p>- DEL SISTEMA EDUCATIVO PROVINCIAL DE GESTIÓN ESTATAL Y PRIVADA. OBLIGATORIEDAD DE LA REALIZACIÓN DE EXÁMENES MÉDICOS PARA LA IDENTIFICACIÓN DE SU ESTADO DE SALUD. Proyecto de ley: Tomo 2017/2018, 4837. Dictamen, 1475. Consideración, 1476. Vuelta a Comisión, 1480.</p><br>
+        <section id="analisis"></section>
+        <p>- QUE CURSAN EL ÚLTIMO AÑO EN ESTABLECIMIENTOS EDUCACIONALES DE LA PROVINCIA. CATÁLOGO DE LA OFERTA EN EDUCACIÓN SUPERIOR. TECNICATURAS, CURSOS Y TALLERES DE INSERCIÓN LABORAL EN TUCUMÁN PARA SU CONOCIMIENTO. Proyecto de ley, 4099.</p><br>
+        <a name="anali"></a>
+        <p>- PREOCUPACIÓN POR LA CATÁSTROFE AMBIENTAL. Proyecto de resolución, 1781.</p>
+        
+    </div>
+    <section id="animales"></section>
+    <div class="analisis">
+            <a href="#"><span>ANÁLISIS</span></a>
+        <p>-
+        DE DETECCIÓN VIRAL PARA LOS VIRUS DE HEPATITIS B, C E INMUNODEFICIENCIA HUMANA (HIV), UTILIZANDO NAT, POR LA <a name="anim"></a>METODOLOGÍA DE BIOLOGÍA MOLECULAR. OBLIGATORIEDAD DE SU REALIZACIÓN. Proyecto de ley, 2350.
+        </p>
+    </div>
+    <section id="anual"></section>
+    <div class="animales">
+        <a href="#"><span>ANIMALES</span></a> 
+        <p>- <a name="anual"></a>
+        ADOPCIÓN Y RÉGIMEN DE TENENCIA RESPONSABLE. PROMOCIÓN. Proyecto de ley, 804.</p> 
+    </div>
+
+    <div class="anual">
+        <a href="#"><span>AÑO </span></a> 
+
+        <p>- DE LOS DERECHOS DE LAS PERSONAS CON DISCAPACIDAD EN LA PROVINCIA DE TUCUMÁN. DECLARACIÓN COMO TAL AL AÑO 2020. Proyecto de ley, 3436. Dictamen y consideración, 3936. Sanción y texto, 3943.</p><br>
+
+        <p>- MARIANO PROVINCIAL EN CONMEMORACIÓN Y ADHESIÓN AL JUBILEO POR LOS CUATROCIENTOS AÑOS DEL HALLAZGO DE LA IMAGEN DE NUESTRA SEÑORA DEL VALLE, VIRGEN MORENITA. DECLARACIÓN COMO TAL AL AÑO 2020. Proyectos: de declaración, 3487; de ley, 3417 y de resolución, 3476. Consideración, 3963. Sanción y texto, 3968.</p><br>
+        <section id="aportes"></section>
+        <p>- NUEVO. ADHESIÓN A SU CELEBRACIÓN EL 1 DE ENERO DE 2020. Proyecto de resolución, 4128. </p><br>
+
+        <p>- 2020. ESTABLECIMIENTO COMO “AÑO DEL GENERAL MANUEL BELGRANO”. Proyecto de ley, 4094. Dictamen, 4526. <a name="apor"></a>Consideración, 4527. Sanción y texto, 4540. (Promulgada como Ley n° 9225).</p>
+    </div>
+        
+    <div class="aportes">
+        <a href="#"><span>APORTES NO REINTEGRABLES </span></a> 
+        <section id="arbol"></section>
+        <p>-
+        SUSPENSIÓN DE OTORGAMIENTO PARA LA REALIZACIÓN DE EVENTOS,<a name="arbol"></a> RECITALES Y AFINES. MEDIDAS DE CONTENCIÓN DEL GASTO PÚBLICO EN EL MARCO DEL DECRETO ACUERDO Nª 1/1 DEL PODER EJECUTIVO PROVINCIAL. Proyecto de ley, 4098.</p>
+    </div>
+
+    <div class="árbol">
+        <a href="#"><span>ÁRBOL </span></a> 
+        <section id="arquitecto"></section>
+        <p>- PAULOWNIA TORMENTOSA, DENOMINADO “KIRI”. DECLARACIÓN DE INTERÉS PROVINCIAL SU FOMENTO, CULTIVO, <a name="arq"></a>INDUSTRIALIZACIÓN Y COMERCIALIZACIÓN. Proyecto de ley, 4081.</p>
+    </div>
+    <section id="asociacion"></section>
+    <div class="arquitecto">
+        <a href="#"><span>ARQUITECTO </span></a> 
+        <a name="asoc"></a>
+         <p>-CÉSAR PELLI. PROFUNDO PESAR POR SU FALLECIMIENTO. Proyectos de declaración, 1351.</p>
+    </div>
+
+    <div class="asociación">
+        <a href="#"><span>ASOCIACIÓN</span></a>
+        <section id="avenida"></section>
+        <p>- DEL PERSONAL LEGISLATIVO (APL). DECLARACIÓN DE INTERÉS LEGISLATIVO SU PARTICIPACIÓN EN <a name="ave"></a>EL XIV ENCUENTRO DEPORTIVO EN LA PROVINCIA DE SAN JUAN EN ABRIL DE 2019. Proyecto de resolución, 230.</p>
+    </div>
+    <section id="azucar"></section>
+    <div class="avenida">
+        <a href="#"><span>AVENIDA</span></a>
+        <a name="azu"></a>
+        <p>- HIMNO PATRIO Y 24 DE SEPTIEMBRE, BARRIO LOS LAPACHOS, RÍO SECO. SOLICITUD DE CONSTRUCCIÓN DE UN REFUGIO. Proyecto de resolución, 214.</p>
+    </div>
+
+    <div class="azúcar">
+        <a href="#"><span>AZÚCAR</span></a>
+        <a name="bancos"></a>
+        <p>-IMPUESTO SOBRE LOS INGRESOS BRUTOS PARA LA VENTA DE AZÚCAR EFECTUADA POR PRODUCTORES CAÑEROS MAQUILEROS CUYAS EXPLOTACIONES NO EXCEDAN DE CIEN HECTÁREAS. ESTABLECIMIENTO DE ALÍCUOTA DEL 0% (CERO POR CIENTO) HASTA EL 31 DE DICIEMBRE DE 2020. Proyecto de ley, 2893. Dictamen, 3903. <a name="anclaB"></a>Consideración, 3905.sanción y texto, 3907. (Vetada parcialmente –art. 2º- mediante decreto nº 67/3 (ME), de fecha 10/01/2020, 4038). (Promulgada como Ley n° 9219).</p><a name="banc"></a>
+    </div>
+  </div>
+
+  </div>
+  <section>
+    <div class="pos-section">
+
+        <h2>Resumen de Temas</h2>
+        <table>
+            <thead>
+                <tr class="border">
+                    <th>Tema Principal</th>
+                    <th>Subtemas o Detalles</th>
+                </tr>
+            </thead>
+            <tbody  class="border">
+                <tr class="border">
+                    <td>Niñez y Adolescencia</td>
+                    <td>Regulación de su figura, implementación de leyes (proyectos 601, 643, 1309, 2268, 2898, 4376).</td>
+                </tr>
+                <tr class="border">
+                    <td>Acceso</td>
+                    <td>Garantía de acceso digital igualitario (proyecto 2330), solicitud de obras viales (proyecto 223).</td>
+                </tr>
+                <tr class="border">
+                    <td>Acompañante Terapéutico</td>
+                    <td>Regulación de la actividad (proyecto 628).</td>
+                </tr>
+                <tr class="border">
+                    <td>Actas</td>
+                    <td>Consideración de actas de la Comisión de Poderes (2748) y de la Junta Electoral Provincial (lectura de nóminas 2746, lectura 2744, resolución 121/19 - 2777).</td>
+                </tr>
+                <tr class="border">
+                    <td>Actriz Tucumana "Rosita" Ávila</td>
+                    <td>Homenaje (proyecto 3472, consideración, sanción y texto 3727).</td>
+                </tr>
+                <tr class="border">
+                    <td>Acuerdos</td>
+                    <td>Apoyo a acuerdo comercial MERCOSUR-Unión Europea (proyecto 1327), designaciones en el Ente Único de Control (mensajes 2880, dictámenes y sanciones 2981, 2984, 2986; 2970, 2974, 2975; 2976, 2979, 2980).</td>
+                </tr>
+                <tr class="border">
+                    <td>Administración Pública Provincial</td>
+                    <td>Inclusión laboral personas trans (proyecto 1699), régimen de licencias especiales (proyecto 1152).</td>
+                </tr>
+                <tr class="border">
+                    <td>Adultos Mayores</td>
+                    <td>Solicitud de controles policiales en centros de pago (proyecto 889).</td>
+                </tr>
+                <tr class="border">
+                    <td>Aeronaves</td>
+                    <td>Reglamentación de uso (proyecto 2083), autorización para contratación directa para mantenimiento (proyecto PE 2842, dictamen 3073, sanción y texto 3080 - Ley 9197).</td>
+                </tr>
+                <tr class="border">
+                    <td>Agentes de Retención</td>
+                    <td>Aplicación régimen presentación espontánea (proyecto PE 1695), excepción obligaciones 2019 (proyecto PE 2064, dictamen 2538, sanción y texto 2540 - Ley 9191).</td>
+                </tr>
+                <tr class="border">
+                    <td>Albinismo</td>
+                    <td>Abordaje y protección integral (proyecto 847).</td>
+                </tr>
+                <tr class="border">
+                    <td>Alergias Alimentarias</td>
+                    <td>Reconocimiento para licencia médica (proyecto 623).</td>
+                </tr>
+                <tr class="border">
+                    <td>Alimentación Vegetariana y Vegana</td>
+                    <td>Obligatoriedad de ofrecer menús en organismos estatales (proyecto 2621).</td>
+                </tr>
+                <tr class="border">
+                    <td>Alumnos</td>
+                    <td>Felicitaciones (proyecto 3449), exámenes médicos obligatorios (proyecto 4837 - Tomo 2017/2018, dictamen 1475), catálogo oferta educativa superior (proyecto 4099), preocupación catástrofe ambiental (proyecto 1781).</td>
+                </tr>
+                <tr class="border">
+                    <td>Análisis</td>
+                    <td>Obligatoriedad de análisis detección viral (proyecto 2350).</td>
+                </tr>
+                <tr class="border">
+                    <td>Animales</td>
+                    <td>Promoción adopción y tenencia responsable (proyecto 804).</td>
+                </tr>
+                <tr class="border">
+                    <td>Año</td>
+                    <td>Declaración años conmemorativos (Discapacidad - 2020: proyecto 3436, sanción y texto 3943; Mariano Provincial - 2020: proyectos 3487, 3417, 3476, sanción y texto 3968; General Belgrano - 2020: proyecto 4094, sanción y texto 4540 - Ley 9225), adhesión a celebración Año Nuevo 2020 (proyecto 4128).</td>
+                </tr>
+                <tr class="border">
+                    <td>Aportes No Reintegrables</td>
+                    <td>Suspensión de otorgamiento para eventos (proyecto 4098).</td>
+                </tr>
+                <tr class="border">
+                    <td>Árbol "Kiri"</td>
+                    <td>Declaración interés provincial para fomento (proyecto 4081).</td>
+                </tr>
+                <tr class="border">
+                    <td>Arquitecto César Pelli</td>
+                    <td>Pesar por fallecimiento (proyecto 1351).</td>
+                </tr>
+                <tr class="border">
+                    <td>Asociación del Personal Legislativo (APL)</td>
+                    <td>Declaración interés por participación en encuentro deportivo (proyecto 230).</td>
+                </tr>
+                <tr class="border">
+                    <td>Avenida Himno Patrio y 24 de Septiembre</td>
+                    <td>Solicitud construcción refugio (proyecto 214).</td>
+                </tr>
+                <tr class="border">
+                    <td>Azúcar</td>
+                    <td>Alícuota 0% Ingresos Brutos para productores cañeros (proyecto 2893, sanción y texto 3907 - Ley 9219).</td>
+                </tr>
+                <tr class="border">
+                    <td>Bancos</td>
+                    <td>Obligatoriedad turnos online (proyecto 2086).</td>
+                </tr>
+                <tr class="border">
+                    <td>Bandera</td>
+                    <td>Izamiento "Wiphala" (proyecto 3459), solicitud reglamentación uso Bandera Provincial/de Macha (proyecto 873).</td>
+                </tr>
+                <tr class="border">
+                    <td>Bares</td>
+                    <td>Obligatoriedad expendio preservativos (proyecto 1708).</td>
+                </tr>
+                <tr class="border">
+                    <td>Bernardo de Monteagudo</td>
+                    <td>Declaración interés por aniversario nacimiento (proyecto 1778).</td>
+                </tr>
+                <tr class="border">
+                    <td>Beneficio para Litigar sin Gastos</td>
+                    <td>Solicitud evaluación actualización importes (proyecto 4384).</td>
+                </tr>
+                <tr class="border">
+                    <td>Benjamín Matienzo</td>
+                    <td>Conmemoración nacimiento (proyecto 883).</td>
+                </tr>
+                <tr class="border">
+                    <td>Bicicleta</td>
+                    <td>Promoción y regulación uso (proyecto 1542).</td>
+                </tr>
+                <tr class="border">
+                    <td>Bioetanol</td>
+                    <td>Solicitud adecuación precio, declaración recurso estratégico (proyectos 939, 940, sanción y texto 1075).</td>
+                </tr>
+                <tr class="border">
+                    <td>Boleto</td>
+                    <td>Docente gratuito (proyecto 4389), estudiantil gratuito (proyectos 4134 - sanción y texto 4238; 931).</td>
+                </tr>
+                <tr class="border">
+                    <td>Bomberos</td>
+                    <td>Instalación en Simoca (proyecto 3448 - Tomo 2017/2018, sanción y texto 2581).</td>
+                </tr>
+                <tr class="border">
+                    <td>Calles</td>
+                    <td>Solicitud nombres de donantes de órganos (proyecto 2097 - Tomo 2018/2019, sanción y texto 2599).</td>
+                </tr>
+                <tr class="border">
+                    <td>Caminos</td>
+                    <td>Estudio camino alternativo turístico (proyecto 4399), solicitud obras camino vecinal (proyecto 877).</td>
+                </tr>
+                <tr class="border">
+                    <td>Campamentos</td>
+                    <td>Declaración interés campamento diabetes (proyecto 1172) y exploradores (proyecto 1788).</td>
+                </tr>
+                <tr class="border">
+                    <td>Campañas</td>
+                    <td>Concientización vasos biodegradables/reutilizables (proyecto 4416), concientización diabetes (proyecto 2646).</td>
+                </tr>
+                <tr class="border">
+                    <td>Campus Deportivos</td>
+                    <td>Solicitud disposición para escuelas sin espacio apto (proyecto 2644).</td>
+                </tr>
+                <tr class="border">
+                    <td>Canales</td>
+                    <td>Solicitud cuadrillas mantenimiento (proyecto 4402), conmemoración Canal de Beagle (proyecto 2922), demarcación drenaje (proyecto PE 2832), solicitud limpieza y mantenimiento (proyecto 2923).</td>
+                </tr>
+                <tr class="border">
+                    <td>Carnaval</td>
+                    <td>Declaración interés carnaval tercera edad (proyecto 4409, sanción y texto 4586).</td>
+                </tr>
+                <tr class="border">
+                    <td>Castración</td>
+                    <td>Implementación control poblacional (proyecto 2078).</td>
+                </tr>
+                <tr class="border">
+                    <td>Causas Judiciales</td>
+                    <td>Regulación disposición bienes secuestrados (proyecto 740).</td>
+                </tr>
+                <tr class="border">
+                    <td>Centros</td>
+                    <td>Creación formación agropecuaria (proyecto 689), creación prevención adicciones (proyecto 4089).</td>
+                </tr>
+                <tr class="border">
+                    <td>Cerro El Pelao</td>
+                    <td>Declaración emergencia ambiental y protección arqueológica (proyecto 4356, sanción y texto 4525 - Ley 9224).</td>
+                </tr>
+                <tr class="border">
+                    <td>Charlas Motivacionales</td>
+                    <td>Declaración interés (proyecto 1338).</td>
+                </tr>
+                <tr class="border">
+                    <td>Circunvalación Metropolitana</td>
+                    <td>Solicitud proyecto planificado (proyecto 1739).</td>
+                </tr>
+                <tr class="border">
+                    <td>Clubes</td>
+                    <td>Declaraciones de interés y beneplácito (proyectos 213, 3480), amnistía regularización (proyecto 1749, sanción y texto 2528).</td>
+                </tr>
+                <tr class="border">
+                    <td>Códigos</td>
+                    <td>Sanción Código Convivencia Social (proyecto 608), Código Procesal Civil y Comercial (proyecto 2087), modificación Código Procesal Constitucional (proyecto 162).</td>
+                </tr>
+                <tr class="border">
+                    <td>Colegios</td>
+                    <td>Solicitud modificación Código Nacional Electoral (proyecto 2373), creación colegio coaching ontológico (proyecto 1254), colegio secundario (proyecto 634), colegio higiene y seguridad (proyectos 759, 835, 1271, sanción 1439, texto 1441 - Vetado decreto 2607/14/2019).</td>
+                </tr>
+                <tr class="border">
+                    <td>Combustible</td>
+                    <td>Preocupación desabastecimiento y suba precio (proyecto 1800).</td>
+                </tr>
+                <tr class="border">
+                    <td>Comisarías</td>
+                    <td>Solicitud incremento recursos (proyecto 933), creación comisarías de la mujer (proyectos 812, 1171, 810), declaración emergencia edilicia (proyecto 2901), solicitud personal y móviles (proyecto 1170).</td>
+                </tr>
+                <tr class="border">
+                    <td>Comisiones</td>
+                    <td>Designación integrantes (Juicio Político 3018, Poderes 2747, Receptoras 2779), creación relevamiento vial (proyectos 1242, 1725), seguimiento emergencias (leyes 3437, hídrica 2919, seguridad 2925), planificación hídrica (proyecto 4119, sanción y texto 4583), construcción estadio (proyecto 1729), archivo de proyectos (Asuntos Constitucionales e Institucionales 1026-1036, ONGs 295, Municipales y Comunales 286-289).</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Reutiliza el contenido del sidebar para el móvil
+    document.getElementById('sidebar-content-mobile').innerHTML =
+      document.getElementById('sidebar-content').innerHTML;
+      let upCount = 0;
+  let downCount = 0;
+
+  function vote(type) {
+    if (type === 'up') {
+      upCount++;
+      document.getElementById('up-count').textContent = upCount;
+    } else if (type === 'down') {
+      downCount++;
+      document.getElementById('down-count').textContent = downCount;
+    }
+  }
+  </script>
+</body>
+</html>
